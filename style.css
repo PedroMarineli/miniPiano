@@ -7,6 +7,7 @@
     --tecla-piano: #D9D9D9;
     --fundo-piano: #C1BFBF;
     --tecla-dicas: #FFFFFF;
+    --tecla-ativa: #a39d9d;
 }
 
 .body{
@@ -62,4 +63,9 @@
 .dicas{
    margin-top: auto;
    margin-bottom: 10px;
+}
+
+.pianoTecla.ativa,
+.pianoTecla:active{
+    background-color: var(--tecla-ativa);
 }
