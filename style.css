@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root{
+    --cor-de-fundo: #CDCDCD;
+    --fonte-titulo: #604141;
+    --tampa-piano: #373737;
+    --tecla-piano: #D9D9D9;
+    --fundo-piano: #C1BFBF;
+    --tecla-dicas: #FFFFFF;
+}
+
+.body{
+    background-color: var(--cor-de-fundo);
+    font-size: 40px;
+    color: var(--tecla-dicas);
+    font-family: 'Itim', cursive;
+}
+
+.tituloPrincipal{
+    font-size: 120px;
+    color: var(--fonte-titulo);
+    display: flex;
+    justify-content: center;
+    margin-top: 0.7em;
+}
+
+.pianoFundo{
+   background-color: var(--fundo-piano);
+    width: 40%;
+    height: 7.3em;
+    border-radius: 10px;
+}
+
+.piano{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.pianoTecla{
+    background-color: var(--tecla-piano);
+    width: 5em;
+    height: 5em;
+    margin: 0 2px;
+    border-radius: 3px;
+}
+
+.teclas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pianoTampa{
+    background-color: var(--tampa-piano);
+    height: 2.3em;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 0 35px ;
+}
+
+.dicas{
+   margin-top: auto;
+   margin-bottom: 10px;
+}
