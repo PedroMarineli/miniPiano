@@ -69,3 +69,16 @@
 .pianoTecla:active{
     background-color: var(--tecla-ativa);
 }
+
+@media screen and (max-width: 415px) {
+    .tituloPrincipal{
+        font-size: 50px;
+    }
+
+    .pianoFundo{
+        width: 90%;
+    }
+
+    .pianoTampa{
+    }
+}
